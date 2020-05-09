@@ -108,7 +108,7 @@ on getprofiles(location)
 	set profiles to {}
 	set i to 1
 	repeat with entry in (list folder of location without invisibles)
-		if (location & (POSIX path of entry)) is not file then
+		if (folder of (info for (location & entry))) is true then
 			set profiles to insertItemInList(entry, profiles, i)
 			set i to i + 1
 		end if
