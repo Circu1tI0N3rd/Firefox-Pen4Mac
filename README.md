@@ -22,5 +22,7 @@ If somehow the app I posted here not working (aka Catalina refused to run it), o
 #### Q: I can't see the "Profiles" folder anywhere inside *Firefox-Portable4Mac.app/Contents/Resources*. Where is it?
 ##### A: The folder will be automatically created when starting the application. If you need to use your own profile(s), just create that "Profiles" folder in *Firefox-Portable4Mac.app/Contents/Resources* and copy your profile into it.
 
-## License:
-NO LICENSE!
+## Acknowledgement:
+- Apple for many scripts and tools
+- Mozilla for Firefox and its command line features
+- And [Erik's Lab](https://erikslab.com) for a [function](https://erikslab.com/2007/08/31/applescript-how-to-split-a-string/) that is extremely useful
